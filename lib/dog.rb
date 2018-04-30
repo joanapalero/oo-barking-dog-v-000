@@ -2,25 +2,19 @@
 class Dog
   
   def name=(name)
-  @name = name
+    @name = name
   end
   
   def name
-  @name
+    @name
   end
-  end
-  Willa = Dog.new
-  willa.name = "Willa"
+end
+
+  dane = Dog.new
+  dane.name = "Willa"
   
-  willa.name
+  dane.name
   
-  willa.bark
-  woof!
-  
-  
-  
- 
-snoopy = Dog.new #=> #<Dog:0x007f970a2edfd0>
-snoopy.breed #=> nil
-snoopy.breed = "Beagle"
-snoopy.breed #=> "Beagle"
+  bark = Dog.bark
+  bark.action = "Woof!"
+  bark.action
