@@ -10,11 +10,7 @@ class Dog
   end
 end
 
-  dane = Dog.new
-  dane.name = "Willa"
-  
-  dane.name
-  
-  bark = Dog.bark
-  bark.action = "Woof!"
-  bark.action
+  def bark
+    puts "woof!"
+  end
+end
