@@ -9,7 +9,7 @@ class Dog
   woof!
   
   
-  def breed=(breed)
+  def dog=(willa)
     @breed = breed
   end
  
